@@ -47,11 +47,9 @@ Kode dipisah menjadi tiga lapisan agar logic matematika, input pengguna, dan
 GUI tidak saling bercampur:
 
 ```
-.
 ├── Grafkom_logic.py    # Rumus matematika tiap kurva, warna tema, statistik
 ├── Grafkom_gui.py      # Render plot, slider, tombol, hover (matplotlib)
 ├── Grafkom_input.py    # Entry point: menu CLI & input parameter awal
-├── requirements.txt
 └── README.md
 ```
 
